@@ -4,5 +4,5 @@ Rails.application.routes.draw do
       get 'greetings/random', to: 'greetings#random'
     end
   end
-  # root "articles#index"
+  root "root#index"
 end
