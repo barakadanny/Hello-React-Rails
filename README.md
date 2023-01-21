@@ -31,7 +31,7 @@
 
 # 📖 Budget Buddy <a name="about-project"></a>
 
-> This repo is for Practice, that fetch data from a built in Api that display random greetings to the user
+> This repo is for Practice, that fetch data from a built in Api that display random greetings to the user everytime the browser refresh
 
 ## 🛠 Built With <a name="built-with"></a>
 
