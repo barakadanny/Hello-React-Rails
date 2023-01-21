@@ -39,6 +39,7 @@
 
 - Ruby on rails
 - PostgreSQL
+- React js
 - Api
 - Redux toolkits
 
