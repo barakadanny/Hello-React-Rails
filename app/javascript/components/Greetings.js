@@ -1,8 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { useSelector, useDispatch } from 'react-redux';
+import {fetchGreetings} from '../greetingSlice'
 
 function Greetings() {
-    return (<h1>Greetings from the components</h1>);
+    const greeting = useSelector(state => state.greeting);
+    const dispatch = useDispatch();
+    dispatch(fetchGreetings());
+
+    console.log(greeting);
+    return (<h1>{greeting}</h1>);
 }
 
 export default Greetings;
